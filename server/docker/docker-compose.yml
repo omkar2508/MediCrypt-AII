@@ -1,0 +1,9 @@
+services:
+  medicrypt-server:
+    build:
+      context: ..
+      dockerfile: docker/Dockerfile
+    ports:
+      - "8000:8000"
+    environment:
+      - DATABASE_URL=sqlite:///./medicrypt.db

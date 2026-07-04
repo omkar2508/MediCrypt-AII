@@ -1,0 +1,13 @@
+__pycache__/
+*.pyc
+.pytest_cache/
+.venv/
+.env
+.env.*
+.mypy_cache/
+.ruff_cache/
+server/.venv/
+server/.pytest_cache/
+server/__pycache__/
+client/keys/*
+!client/keys/.gitkeep

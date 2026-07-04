@@ -1,0 +1,3 @@
+FHE_PARAMS_SET = "concrete-demo"
+MODEL_THRESHOLD = 0.5
+API_VERSION = "v1"
